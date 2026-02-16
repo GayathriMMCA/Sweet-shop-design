@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Tricolor Poster</title>
+    <style>
+
+        .poster
+        {
+            height: 500px;
+            width: 1200px;
+            background-color:#F96E2A;
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+        }
+        
+        .ball 
+        {
+
+            width: 150px;
+            height: 150px;
+            background-color:white;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 20%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite ease-in-out; 
+        } 
+
+         @keyframes bounce 
+        {
+         0%, 100%
+            {
+                 top: 100px;
+                 animation-timing-function: ease-in;
+            } 
+         50% 
+         
+         {
+
+                top: 500px;
+                animation-timing-function: ease-out;
+         }
+
+        }
+        
+
+
+    </style>
+
+</head>
+<body>
+    <center><br><br><br><br><br><br>
+         <div class="poster">
+          
+            <br><br>
+            <div style="background-color:#8FD14F; width: 400px;"><h1 style="color: white; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 100;">Happy Republic Day</h1></div>
+            <h3 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: white; margin-left: 260px;">Discount Upto</h3>
+            <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; color: white; font-size:90px;">30%</h1>
+            <h2 style="color: white; margin-left: 40px;">ON MOBILE PHONES</h2>
+
+            
+         </div>
+
+         <div class="ball"><h1 style="color:blue;">BIG SALE</h1></div>
+
+         <div>
+            <img src="mobile.jpg" alt="phone">
+         </div>
+         
+
+    </center>
+
+    
+</body>
+</html>
